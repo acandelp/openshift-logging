@@ -1,4 +1,4 @@
-## Logging 5 with Fluentd and Elasticsearch
+## Logging 5 Collector and Elasticsearch
 
 ### 1)Architecture
 - [New Commers Check List](https://docs.google.com/spreadsheets/d/1M5DT-GiFVJt9PYAjPnMQBRCvm6tKu4KurtkRzEg0LLA/edit?gid=1234451132#gid=1234451132) OpenShift 4.x Troubleshooting ClusterLogging
