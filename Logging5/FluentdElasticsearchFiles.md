@@ -40,6 +40,7 @@ spec:
 ```
 ##### - Deploy the ClusterLogForwarder instance (optional)
 ```
+apiVersion: "logging.openshift.io/v1"
 kind: ClusterLogForwarder
 metadata:
   name: instance 
