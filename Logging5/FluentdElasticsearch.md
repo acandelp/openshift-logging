@@ -14,6 +14,6 @@
   
 - [Configuring the Elasticsearch log store](https://docs.openshift.com/container-platform/4.14/observability/logging/log_storage/logging-config-es-store.html)
 
-- [Configuring log forwarding](https://docs.openshift.com/container-platform/4.14/observability/logging/log_collection_forwarding/configuring-log-forwarding.html)
+- [Configuring log forwarding](https://docs.redhat.com/en/documentation/openshift_container_platform/4.10/html/logging/cluster-logging-external#cluster-logging-external)
 
 - [Log visualization with Kibana](https://docs.openshift.com/container-platform/4.14/observability/logging/log_visualization/logging-kibana.html)
