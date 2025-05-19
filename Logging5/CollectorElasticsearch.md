@@ -3,7 +3,7 @@
 ### 1)Architecture
 - [New Commers Check List](https://docs.google.com/spreadsheets/d/1M5DT-GiFVJt9PYAjPnMQBRCvm6tKu4KurtkRzEg0LLA/edit?gid=1234451132#gid=1234451132) OpenShift 4.x Troubleshooting ClusterLogging
 
-- [Limitation of the OpenShift Logging Architecture](https://access.redhat.com/solutions/3329761)
+- [Limitation of the OpenShift Logging Architecture (Fluentd)](https://access.redhat.com/solutions/3329761)
 
 - [Support](https://docs.openshift.com/container-platform/4.14/observability/logging/cluster-logging-support.html)
 
