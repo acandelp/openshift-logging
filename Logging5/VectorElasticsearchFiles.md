@@ -40,16 +40,22 @@ spec:
 ```
 ##### - Deploy the ClusterLogForwarder instance (optional)
 ```
+apiVersion: "logging.openshift.io/v1"
 kind: ClusterLogForwarder
 metadata:
   name: instance 
   namespace: openshift-logging 
 spec:
+  inputs: 
+  outputs:
+  - name: kafka-test
+    type: kafka
+    url: tcp://localhost:9093/app-topic
   pipelines:
-   - name: elasticsearch-application 
+   - name: logging1-to-kafka
      inputRefs:
-      - application
+      - infrastructure
      outputRefs:
-      - default
-     parse: json
+      - kafka-test
+     parse: json 
 ```
