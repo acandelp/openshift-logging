@@ -23,12 +23,15 @@
 
 
 #### 2.1) Installation Health Check
-
-===Collector Buffers===
+```
+Collector Logs
+```
+```
+Collector Buffers:
 for i in $(oc get pods -l component=collector --no-headers | grep -i running | awk '{print $1}'); do echo $i; oc exec $i -- /bin/bash -c "ls /var/lib/fluentd/*"; done
-=======================
-
-===ES check===
+```
+```
+Elasticsearch Health:
 oc rsh -c elasticsearch <elasticsearchpod>
 es_util --query="_cat/indices?h=health,status,index,id,pri,rep,docs.count,docs.deleted,store.size,creation.date.string&v="
 es_util --query=_cat/health?v
@@ -37,4 +40,7 @@ es_util --query=$INDEXNAME/_search?pretty
 es_util --query=_cat/aliases?v
 es_util --query=_cat/allocation?v
 es_util --query=_cat/thread_pool?v
-==============
+```
+```
+Checking the logs in Kibana UI
+```
