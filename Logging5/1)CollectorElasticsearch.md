@@ -23,6 +23,7 @@
 
 
 #### 2.1) Installation Health Check
+[Installation Health Check VIDEO](https://drive.google.com/file/d/1q_4DKt5ntH60wNrdY8StkJw-Jnvmx9-3/view?usp=drive_link)
 ```
 Collector Logs
 ```
