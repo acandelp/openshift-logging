@@ -20,3 +20,21 @@
 - [Configuring log forwarding](https://docs.redhat.com/en/documentation/openshift_container_platform/4.10/html/logging/cluster-logging-external#cluster-logging-external)
 
 - [Log visualization with Kibana](https://docs.openshift.com/container-platform/4.14/observability/logging/log_visualization/logging-kibana.html)
+
+
+####2.1) Installation Health Check####
+
+===Collector Buffers===
+for i in $(oc get pods -l component=collector --no-headers | grep -i running | awk '{print $1}'); do echo $i; oc exec $i -- /bin/bash -c "ls /var/lib/fluentd/*"; done
+=======================
+
+===ES check===
+oc rsh -c elasticsearch <elasticsearchpod>
+es_util --query="_cat/indices?h=health,status,index,id,pri,rep,docs.count,docs.deleted,store.size,creation.date.string&v="
+es_util --query=_cat/health?v
+es_util --query=_cat/nodes?v
+es_util --query=$INDEXNAME/_search?pretty
+es_util --query=_cat/aliases?v
+es_util --query=_cat/allocation?v
+es_util --query=_cat/thread_pool?v
+==============
