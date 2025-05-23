@@ -22,7 +22,7 @@
 - [Log visualization with Kibana](https://docs.openshift.com/container-platform/4.14/observability/logging/log_visualization/logging-kibana.html)
 
 
-####2.1) Installation Health Check
+#### 2.1) Installation Health Check
 
 ===Collector Buffers===
 for i in $(oc get pods -l component=collector --no-headers | grep -i running | awk '{print $1}'); do echo $i; oc exec $i -- /bin/bash -c "ls /var/lib/fluentd/*"; done
