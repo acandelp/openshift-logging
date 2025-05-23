@@ -1,9 +1,9 @@
 ## Logging 5 Collector and Elasticsearch (deprecated)
 
 ### 1)Architecture
-- [New Commers Check List](https://docs.google.com/presentation/d/1yK2qdHTWmQiDrcRbgEEa-nkveaPRFlIVgAGDzyethR8/edit#slide=id.gd70e42a98c_0_714) OpenShift 4.x Troubleshooting ClusterLogging
-
-- [Limitation of the OpenShift Logging Architecture (Fluentd)](https://access.redhat.com/solutions/3329761)
+- [Logging Architecture](https://docs.google.com/presentation/d/1yK2qdHTWmQiDrcRbgEEa-nkveaPRFlIVgAGDzyethR8/edit#slide=id.gd70e42a98c_0_714) 
+- [Fluentd - Limitation of the OpenShift Logging Architecture](https://access.redhat.com/solutions/3329761)
+- [Vector - Tuning log payloads and delivery in RHOCP 4](https://access.redhat.com/solutions/7074148)
 
 - [Support](https://docs.openshift.com/container-platform/4.14/observability/logging/cluster-logging-support.html)
 
