@@ -7,7 +7,7 @@
 - [Upstream documentation](https://grafana.com/docs/loki/latest/get-started/architecture/)
 
 
-### 2)[Installation](https://docs.openshift.com/container-platform/4.16/observability/logging/log_storage/installing-log-storage.html#logging-loki-gui-install_installing-log-storage)
+### 2)[Installation and Deployment](https://docs.openshift.com/container-platform/4.16/observability/logging/log_storage/installing-log-storage.html#logging-loki-gui-install_installing-log-storage)
 
 
 #### 2.1) Configuration
