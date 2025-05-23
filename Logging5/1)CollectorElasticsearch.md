@@ -17,7 +17,6 @@
   
 - [Configuring the Elasticsearch log store](https://docs.openshift.com/container-platform/4.14/observability/logging/log_storage/logging-config-es-store.html)
 
-- [Configuring log forwarding](https://docs.redhat.com/en/documentation/openshift_container_platform/4.10/html/logging/cluster-logging-external#cluster-logging-external)
 
 - [Log visualization with Kibana](https://docs.openshift.com/container-platform/4.14/observability/logging/log_visualization/logging-kibana.html)
 
@@ -47,3 +46,4 @@ Checking the logs in Kibana UI
 ```
 #### 2.2) ClusterLogForwarder
 [ClusterLogForwarder VIDEO](https://drive.google.com/file/d/12cf4vN5DszMYXq7HlEqU2PlSFAAtjsNp/view?usp=drive_link)
+- [Configuring log forwarding](https://docs.redhat.com/en/documentation/openshift_container_platform/4.10/html/logging/cluster-logging-external#cluster-logging-external)
