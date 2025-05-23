@@ -47,8 +47,9 @@
 - [Migrating the default log store from Elasticsearch to Loki in OCP 4](https://access.redhat.com/articles/6991632)
 
 
+### 3)Troubleshooting
 
-### 3)Common customer issues
+#### 3.1 Common customer issues
 - The customer cannot see the logs in the OCP Console.
 - Logs are delayed in the OCP Console.
 - [Logging alerts](https://docs.openshift.com/container-platform/4.14/observability/logging/logging_alerts/default-logging-alerts.html).
@@ -58,10 +59,8 @@
 - Cluster Log Forwarder configuration.
 - [Loki ingester is in 0/1 status](https://access.redhat.com/solutions/7028049)
 
-### 3)Troubleshooting
 
-
-#### 4.1) How to narrow down the problem?
+#### 3.2) How to narrow down the problem?
 
 - Is the issue only happening for a concrete user?
 - Is the issue only happening for a concrete application?
@@ -71,7 +70,17 @@
 - Collector Dashboards
 - Log console screenshot
 
-#### 4.2) Must-gather paths
+#### 3.3)Common checks
+
+- Logging Operator Version and Loki Operator version
+- ClusterLogging Managed status
+- LokiStack instance
+- ClusterLogging instance
+- ClusterLogForwarder instance
+- Collector Logs
+- Loki pods logs
+
+#### 3.4) Must-gather paths
 ```
 Operator version: /must-gather.local/registry-redhat-io-openshift-logging-cluster-logging-rhel8-operator-sha256-ad436419a03ffd76260906448cbcea146357dd102b89e791fc84be75ea30bb0f/cluster-logging/install
 ClusterLogging instance (from 5.7): /must-gather.local/registry-redhat-io-openshift-logging-cluster-logging-rhel9-operator-sha256-463bdc2944690d56eb597314a7045fdb751c56e28bc6d45b279f194d4695be0f/namespaces/openshift-logging/logging.openshift.io/clusterloggings
@@ -83,7 +92,7 @@ Vector config file: /must-gather.local/registry-redhat-io-openshift-logging-clus
 ```
 
 
-#### 4.3) If the customer cannot collect a must-gather
+#### 3.5) If the customer cannot collect a must-gather
 ```
 $ oc adm inspect ns/openshift-logging (also add the generated file)
 $ oc -n openshift-logging get clusterlogging instance -o yaml > clo.txt
@@ -92,7 +101,7 @@ $ oc -n openshift-logging get csv > csv.txt
 $ oc -n openshift-logging get LokiStack <lokistack_instance> -o yaml > lokistack.txt
 ```
 
-#### 4.4) Extra information for checking Loki
+#### 3.6) Extra information for checking Loki
 ```
 ===Metrics to identify log drops===
 /// Vector discarded events
@@ -115,20 +124,8 @@ loki_ingester_wal_recovered_bytes_total{namespace="openshift-logging"}
 - [Loki Dashboards](https://videos.learning.redhat.com/playlist/dedicated/251079123/1_ojvcvz0p/1_zq29kjud).
 
 
-
-#### 4.5)Common checks
-
-- Logging Operator Version and Loki Operator version
-- ClusterLogging Managed status
-- LokiStack instance
-- ClusterLogging instance
-- ClusterLogForwarder instance
-- Collector Logs
-- Loki pods logs
-
-
-#### 4.6) Vector Troubleshooting
-- [Troubleshooting Vector Draft](https://docs.google.com/document/d/1IhQZLhQNcbA8lZ-DuO_3YWOwhOIpCXv0GA7BxF2ECeA/edit?tab=t.0#heading=h.s3ccwubfbig0) 
+#### 3.7) Vector Troubleshooting
+- [Vector Troubleshooting](https://access.redhat.com/articles/7089751) 
 
 
 
