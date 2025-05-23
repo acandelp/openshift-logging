@@ -9,6 +9,8 @@
 
 ### 2)[Installation and Deployment](https://docs.openshift.com/container-platform/4.16/observability/logging/log_storage/installing-log-storage.html#logging-loki-gui-install_installing-log-storage)
 
+[Installation and Deployment VIDEO](https://drive.google.com/file/d/1G75BKcR-_35WcSt7lra_TYYBUzBfxYUm/view)
+
 
 - [Configuring the LokiStack log store](https://docs.openshift.com/container-platform/4.14/observability/logging/log_storage/cluster-logging-loki.html)
 
