@@ -11,6 +11,7 @@
 
 
 ### 2)[Installation](https://docs.openshift.com/container-platform/4.14/observability/logging/cluster-logging-deploying.html)
+[Installation VIDEO](https://drive.google.com/file/d/1eBqDAiXHp_Q3gkIJCLT4a5Ne_HhC_yDO/view?usp=drive_link)
 
 - [Configuring the logging Collector](https://docs.openshift.com/container-platform/4.14/observability/logging/log_collection_forwarding/cluster-logging-collector.html)
   
