@@ -50,6 +50,7 @@ Checking the logs in Kibana UI
 
 ### 3)Troubleshooting
 
+[Troubleshooting session with real cases mentioned in 3.8 VIDEO](https://drive.google.com/file/d/1Ijlv1NmGKbxy0faZQM-Fz__zN0ZH133w/view?usp=drive_link)
 
 #### 3.1) How to narrow down the problem?
 
@@ -107,5 +108,17 @@ $ oc rsh -c elasticsearch <elasticsearchpod>
 [Forwarding logs using syslog fails with error EMSGSIZE in OpenShift 4](https://access.redhat.com/solutions/5873961), [Elasticsearch reporting MapperParsingException](https://access.redhat.com/solutions/3986441)
 
 #### 3.7) [Reproducers](https://gitlab.cee.redhat.com/aosqe/aosqe-tools/-/blob/master/logging/log_doc/deploy-log-receivers.md)
+
+### 3.8) Support cases
+
+- Internal Elasticsearch
+[03978669](https://gss--c.vf.force.com/apex/Case_View?srPos=0&srKp=500&id=500Hn00001kqiaw&sfdc.override=1), [03887839](https://gss--c.vf.force.com/apex/Case_View?srPos=0&srKp=500&id=5006R000020ZGdc&sfdc.override=1), [03692480](https://gss--c.vf.force.com/apex/Case_View?srPos=0&srKp=500&id=5006R00001y6x7K&sfdc.override=1), [03896587](https://gss--c.vf.force.com/apex/Case_View?srPos=0&srKp=500&id=5006R000020b0ML&sfdc.override=1)
+- Forwarding logs
+[03946195](https://gss--c.vf.force.com/apex/Case_View?srPos=0&srKp=500&id=5006R0000211QzP&sfdc.override=1), [03877761](https://gss--c.vf.force.com/apex/Case_View?srPos=0&srKp=500&id=5006R000020P21f&sfdc.override=1)
+- JSON
+[03582425](https://gss--c.vf.force.com/apex/Case_View?srPos=0&srKp=500&id=5006R00001vdVZq&sfdc.override=1), [03444961](https://gss--c.vf.force.com/apex/Case_View?srPos=0&srKp=500&id=5006R00001rZf4q&sfdc.override=1) 
+
+
+
 
 
