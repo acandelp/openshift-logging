@@ -1,7 +1,7 @@
 ## Logging 5 Collector and Elasticsearch (deprecated)
 
 ### 1)Architecture
-- [New Commers Check List](https://docs.google.com/spreadsheets/d/1M5DT-GiFVJt9PYAjPnMQBRCvm6tKu4KurtkRzEg0LLA/edit?gid=1234451132#gid=1234451132) OpenShift 4.x Troubleshooting ClusterLogging
+- [New Commers Check List](https://docs.google.com/presentation/d/1yK2qdHTWmQiDrcRbgEEa-nkveaPRFlIVgAGDzyethR8/edit#slide=id.gd70e42a98c_0_714) OpenShift 4.x Troubleshooting ClusterLogging
 
 - [Limitation of the OpenShift Logging Architecture (Fluentd)](https://access.redhat.com/solutions/3329761)
 
