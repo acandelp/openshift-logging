@@ -10,8 +10,8 @@
 - [Support](https://docs.openshift.com/container-platform/4.14/observability/logging/cluster-logging-support.html)
 
 
-### 2)[Installation](https://docs.openshift.com/container-platform/4.14/observability/logging/cluster-logging-deploying.html)
-[Installation VIDEO](https://drive.google.com/file/d/1eBqDAiXHp_Q3gkIJCLT4a5Ne_HhC_yDO/view?usp=drive_link)
+### 2)[Installation and Deployment](https://docs.openshift.com/container-platform/4.14/observability/logging/cluster-logging-deploying.html)
+[Installation and Deployment VIDEO](https://drive.google.com/file/d/1eBqDAiXHp_Q3gkIJCLT4a5Ne_HhC_yDO/view?usp=drive_link)
 
 - [Configuring the logging Collector](https://docs.openshift.com/container-platform/4.14/observability/logging/log_collection_forwarding/cluster-logging-collector.html)
   
@@ -45,3 +45,5 @@ es_util --query=_cat/thread_pool?v
 ```
 Checking the logs in Kibana UI
 ```
+#### 2.2) ClusterLogForwarder
+[ClusterLogForwarder VIDEO](https://drive.google.com/file/d/12cf4vN5DszMYXq7HlEqU2PlSFAAtjsNp/view?usp=drive_link)
