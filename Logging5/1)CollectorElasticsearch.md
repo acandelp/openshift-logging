@@ -109,7 +109,7 @@ $ oc rsh -c elasticsearch <elasticsearchpod>
 
 #### 3.7) [Reproducers](https://gitlab.cee.redhat.com/aosqe/aosqe-tools/-/blob/master/logging/log_doc/deploy-log-receivers.md)
 
-### 3.8) Support cases
+#### 3.8) Support cases
 
 - Internal Elasticsearch
 [03978669](https://gss--c.vf.force.com/apex/Case_View?srPos=0&srKp=500&id=500Hn00001kqiaw&sfdc.override=1), [03887839](https://gss--c.vf.force.com/apex/Case_View?srPos=0&srKp=500&id=5006R000020ZGdc&sfdc.override=1), [03692480](https://gss--c.vf.force.com/apex/Case_View?srPos=0&srKp=500&id=5006R00001y6x7K&sfdc.override=1), [03896587](https://gss--c.vf.force.com/apex/Case_View?srPos=0&srKp=500&id=5006R000020b0ML&sfdc.override=1)
