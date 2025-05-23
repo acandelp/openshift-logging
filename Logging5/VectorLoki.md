@@ -49,6 +49,8 @@
 
 ### 3)Troubleshooting
 
+[Troubleshooting session with real cases mentioned in 3.8 VIDEO](https://drive.google.com/file/d/1OPEeoI4Un4PBFexo6g_CEjl10eLo1ENv/view)
+
 #### 3.1 Common customer issues
 - The customer cannot see the logs in the OCP Console.
 - Logs are delayed in the OCP Console.
@@ -128,8 +130,7 @@ loki_ingester_wal_recovered_bytes_total{namespace="openshift-logging"}
 - [Vector Troubleshooting](https://access.redhat.com/articles/7089751) 
 
 
-
-### 5) Support cases
+#### 3.8) Support cases
 
 - [Troubleshooting cases Video](https://drive.google.com/file/d/1OPEeoI4Un4PBFexo6g_CEjl10eLo1ENv/view)
 
