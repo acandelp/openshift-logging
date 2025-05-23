@@ -50,7 +50,7 @@ Checking the logs in Kibana UI
 
 ### 3)Troubleshooting
 
-[Troubleshooting session with real cases mentioned in 3.8 VIDEO](https://drive.google.com/file/d/1Ijlv1NmGKbxy0faZQM-Fz__zN0ZH133w/view?usp=drive_link)
+[Troubleshooting session with real cases mentioned in 3.9 VIDEO](https://drive.google.com/file/d/1Ijlv1NmGKbxy0faZQM-Fz__zN0ZH133w/view?usp=drive_link)
 
 #### 3.1) How to narrow down the problem?
 
@@ -101,15 +101,17 @@ $ oc rsh -c elasticsearch <elasticsearchpod>
 
 #### 3.5) [Elasticsearch alerts troubleshooting](https://docs.openshift.com/container-platform/4.10/logging/troubleshooting/cluster-logging-troubleshooting-for-critical-alerts.html)
 
-#### 3.6) Forwarding troubleshooting
+#### 3.6) Forwarding Troubleshooting
 - [New Commers Check List](https://docs.google.com/spreadsheets/d/1M5DT-GiFVJt9PYAjPnMQBRCvm6tKu4KurtkRzEg0LLA/edit?gid=1234451132#gid=1234451132) Understanding and troubleshooting fluentd part 1 and 2.
 
 - Examples:
 [Forwarding logs using syslog fails with error EMSGSIZE in OpenShift 4](https://access.redhat.com/solutions/5873961), [Elasticsearch reporting MapperParsingException](https://access.redhat.com/solutions/3986441)
 
-#### 3.7) [Reproducers](https://gitlab.cee.redhat.com/aosqe/aosqe-tools/-/blob/master/logging/log_doc/deploy-log-receivers.md)
+#### 3.7) [Vector Troubleshooting](https://access.redhat.com/articles/7089751)
 
-#### 3.8) Support cases
+#### 3.8) [Reproducers](https://gitlab.cee.redhat.com/aosqe/aosqe-tools/-/blob/master/logging/log_doc/deploy-log-receivers.md)
+
+#### 3.9) Support cases
 
 - Internal Elasticsearch
 [03978669](https://gss--c.vf.force.com/apex/Case_View?srPos=0&srKp=500&id=500Hn00001kqiaw&sfdc.override=1), [03887839](https://gss--c.vf.force.com/apex/Case_View?srPos=0&srKp=500&id=5006R000020ZGdc&sfdc.override=1), [03692480](https://gss--c.vf.force.com/apex/Case_View?srPos=0&srKp=500&id=5006R00001y6x7K&sfdc.override=1), [03896587](https://gss--c.vf.force.com/apex/Case_View?srPos=0&srKp=500&id=5006R000020b0ML&sfdc.override=1)
