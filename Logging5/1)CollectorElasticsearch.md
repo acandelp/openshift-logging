@@ -1,6 +1,8 @@
 ## Logging 5 Collector and Elasticsearch (deprecated)
 
 ### 1)Architecture
+
+[Architecture VIDEO](https://drive.google.com/file/d/19-sXFKFRS1i9ct_QC8HMdQj2KmCKf-PB/view?usp=drive_link)
 - [Logging Architecture](https://docs.google.com/presentation/d/1yK2qdHTWmQiDrcRbgEEa-nkveaPRFlIVgAGDzyethR8/edit#slide=id.gd70e42a98c_0_714) 
 - [Fluentd - Limitation of the OpenShift Logging Architecture](https://access.redhat.com/solutions/3329761)
 - [Vector - Tuning log payloads and delivery in RHOCP 4](https://access.redhat.com/solutions/7074148)
