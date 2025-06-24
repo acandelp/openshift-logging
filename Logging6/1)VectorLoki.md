@@ -1,4 +1,4 @@
-## Logging 5 with Vector and Loki
+## Logging 6 (WORK IN PROGRESS)
 
 ### 1)Architecture
 [Architecture VIDEO](https://drive.google.com/file/d/1i71GS-1N2LkZnfz1WAemgUZe78MZwP_4/view?usp=drive_link)
@@ -6,20 +6,18 @@
 - [Introduction to LokiStack Operations/Dashboard](https://videos.learning.redhat.com/playlist/dedicated/251079123/1_ojvcvz0p/1_zq29kjud)
 - [Upstream documentation](https://grafana.com/docs/loki/latest/get-started/architecture/)
 
-
-### 2)[Installation and Deployment](https://docs.openshift.com/container-platform/4.16/observability/logging/log_storage/installing-log-storage.html#logging-loki-gui-install_installing-log-storage)
-
-[Installation and Deployment VIDEO](https://drive.google.com/file/d/1G75BKcR-_35WcSt7lra_TYYBUzBfxYUm/view)
+PENDING --> SHORT VIDEO ARCHITECTURE DIFFERENCES BETWEEN LOGGING 5 (LOKIVECTOR) AND LOGGING 6.
 
 
-- [Configuring the LokiStack log store](https://docs.openshift.com/container-platform/4.14/observability/logging/log_storage/cluster-logging-loki.html)
+### 2)[Installation and Deployment](https://docs.redhat.com/en/documentation/openshift_container_platform/4.17/html/logging/logging-6-0#installing-logging-6-0)
 
-- [Configuring the logging Collector](https://docs.openshift.com/container-platform/4.14/observability/logging/log_collection_forwarding/cluster-logging-collector.html)
-  
-- [Configuring log forwarding](https://docs.openshift.com/container-platform/4.14/observability/logging/log_collection_forwarding/configuring-log-forwarding.html)
+[Installation and Deployment VIDEO]()
+ -->PENDING
 
-[ClusterLogForwarder VIDEO](https://drive.google.com/file/d/12cf4vN5DszMYXq7HlEqU2PlSFAAtjsNp/view)
+- [Configuring log forwarding](https://docs.redhat.com/en/documentation/openshift_container_platform/4.17/html/logging/logging-6-0#log6x-clf)
 
+[ClusterLogForwarder VIDEO]()
+-->PENDING
 
 #### 2.1) Useful configuration information
 
