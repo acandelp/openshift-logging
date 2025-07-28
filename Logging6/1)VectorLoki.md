@@ -1,7 +1,8 @@
 ## Logging 6 (WORK IN PROGRESS)
 
 ### 1)Architecture
-[Architecture VIDEO](https://drive.google.com/file/d/1i71GS-1N2LkZnfz1WAemgUZe78MZwP_4/view?usp=drive_link)
+[Logging 6 Architecture VIDEO]()
+[Loki Architecture VIDEO](https://drive.google.com/file/d/1i71GS-1N2LkZnfz1WAemgUZe78MZwP_4/view?usp=drive_link)
 - [Introduction to LokiStack](https://videos.learning.redhat.com/playlist/dedicated/251079123/1_ojvcvz0p/1_24vvknfn)
 - [Introduction to LokiStack Operations/Dashboard](https://videos.learning.redhat.com/playlist/dedicated/251079123/1_ojvcvz0p/1_zq29kjud)
 - [Upstream documentation](https://grafana.com/docs/loki/latest/get-started/architecture/)
