@@ -1,7 +1,7 @@
 ## Logging 6 (WORK IN PROGRESS)
 
 ### 1)Architecture
-[Logging 6 Architecture VIDEO]()
+[Logging 6 Architecture VIDEO](https://drive.google.com/file/d/1YtNF986BtYodAE4IeSBptf27lrLoZTp8/view?usp=drive_link)
 - [Logging 6 Architecture](https://docs.google.com/presentation/d/1IyCqnwTKbvF-A8q6bABBUqeT-Ey4zFCw_ntxf6QU48U/edit?slide=id.g5a662668d9_0_5#slide=id.g5a662668d9_0_5)
   
 [Loki Architecture VIDEO](https://drive.google.com/file/d/1i71GS-1N2LkZnfz1WAemgUZe78MZwP_4/view?usp=drive_link)
