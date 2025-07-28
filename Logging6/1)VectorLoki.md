@@ -9,7 +9,7 @@
 - [Introduction to LokiStack Operations/Dashboard](https://videos.learning.redhat.com/playlist/dedicated/251079123/1_ojvcvz0p/1_zq29kjud)
 - [Upstream documentation](https://grafana.com/docs/loki/latest/get-started/architecture/)
 
-PENDING --> SHORT VIDEO ARCHITECTURE DIFFERENCES BETWEEN LOGGING 5 (LOKIVECTOR) AND LOGGING 6.
+[Architecture differences betweeken Logging 5 and Logging 6](https://drive.google.com/file/d/1DkoS8houF86fxZCm4BXd-bVdeQQ-d6oA/view?usp=drive_link)
 
 
 ### 2)[Installation and Deployment](https://docs.redhat.com/en/documentation/openshift_container_platform/4.17/html/logging/logging-6-0#installing-logging-6-0)
