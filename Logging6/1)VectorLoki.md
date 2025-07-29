@@ -38,14 +38,6 @@
 - [Defining retention for logs in LokiStack in RHOCP4](https://access.redhat.com/solutions/7053212)
   
 
-#### 2.2) Collector and logStorage migration
-
-- [How to migrate Fluentd to Vector in Red Hat OpenShift Logging 5.5+ versions ?](https://access.redhat.com/articles/6999658)
-
-- [Migrating the log collector from fluentd to vector reducing the number of logs duplicated in RHOCP 4](https://access.redhat.com/articles/7063405)
-
-- [Migrating the default log store from Elasticsearch to Loki in OCP 4](https://access.redhat.com/articles/6991632)
-
 
 ### 3)Troubleshooting
 
@@ -79,7 +71,6 @@
 - Collector Logs
 - Loki pods logs
 - UI Plugin status
-
 
 #### 3.4) If the customer cannot collect a must-gather
 ```
@@ -117,7 +108,7 @@ loki_ingester_wal_recovered_bytes_total{namespace="openshift-logging"}
 - [Vector Troubleshooting](https://access.redhat.com/articles/7089751) 
 
 
-#### 3.8) Support cases
+#### 3.7) Support cases
 
 - [Troubleshooting cases Video](https://drive.google.com/file/d/1OPEeoI4Un4PBFexo6g_CEjl10eLo1ENv/view) . Please note that the cases out of the "Logging 6" section belong to Logging 5 using Vector and Loki but since the steps to troubleshoot these tickets are the same for both versions of logging, I'm leaving them attached along with the troubleshooting video.
 - Configuration issues [03959863](https://gss--c.vf.force.com/apex/Case_View?id=5006R00002144DH&sfdc.override=1), [03725529](https://gss--c.vf.force.com/apex/Case_View?srPos=66&srKp=500&srF=1&id=5006R00001ylVaI&sfdc.override=1), [03737922](https://gss--c.vf.force.com/apex/Case_View?srPos=11&srKp=500&srF=1&id=5006R00001ywIZr&sfdc.override=1) 
