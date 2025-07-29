@@ -82,25 +82,14 @@
 - Collector Logs
 - Loki pods logs
 
-#### 3.4) Must-gather paths
-```
-Operator version: /must-gather.local/registry-redhat-io-openshift-logging-cluster-logging-rhel8-operator-sha256-ad436419a03ffd76260906448cbcea146357dd102b89e791fc84be75ea30bb0f/cluster-logging/install
-ClusterLogging instance (from 5.7): /must-gather.local/registry-redhat-io-openshift-logging-cluster-logging-rhel9-operator-sha256-463bdc2944690d56eb597314a7045fdb751c56e28bc6d45b279f194d4695be0f/namespaces/openshift-logging/logging.openshift.io/clusterloggings
-ClusterLogging instance (prior 5.7): /must-gather.local/registry-redhat-io-openshift-logging-cluster-logging-rhel8-operator-sha256-ad436419a03ffd76260906448cbcea146357dd102b89e791fc84be75ea30bb0f/cluster-logging/clo
-ClusterLogForwarder instance (from 5.7): /must-gather.local/registry-redhat-io-openshift-logging-cluster-logging-rhel9-operator-sha256-463bdc2944690d56eb597314a7045fdb751c56e28bc6d45b279f194d4695be0f/namespaces/openshift-logging/logging.openshift.io/clusterlogforwarders
-ClusterLogForwarder instance (prior 5.7): /must-gather.local/registry-redhat-io-openshift-logging-cluster-logging-rhel8-operator-sha256-ad436419a03ffd76260906448cbcea146357dd102b89e791fc84be75ea30bb0f/cluster-logging/clo
-LokiStack instance: /must-gather.local/registry-redhat-io-openshift-logging-cluster-logging-rhel9-operator-sha256-695733369faba7b24b5ebecdbb23be5629965072d970f41e7560ad7e7bd20765/cluster-logging/lokistack
-Vector config file: /must-gather.local/registry-redhat-io-openshift-logging-cluster-logging-rhel9-operator-sha256-695733369faba7b24b5ebecdbb23be5629965072d970f41e7560ad7e7bd20765/cluster-logging/clo/openshift-logging/collector-config_vector.toml
-```
-
 
 #### 3.5) If the customer cannot collect a must-gather
 ```
 $ oc adm inspect ns/openshift-logging (also add the generated file)
-$ oc -n openshift-logging get clusterlogging instance -o yaml > clo.txt
-$ oc -n openshift-logging get clusterLogForwarder instance -o yaml > clf.txt
 $ oc -n openshift-logging get csv > csv.txt
+$ oc -n openshift-logging get observability <instance> -o yaml > observclf.txt
 $ oc -n openshift-logging get LokiStack <lokistack_instance> -o yaml > lokistack.txt
+$ oc -n openshift-logging get uiplugin <plugin_name> -o yaml > plugin.txt
 ```
 
 #### 3.6) Extra information for checking Loki
