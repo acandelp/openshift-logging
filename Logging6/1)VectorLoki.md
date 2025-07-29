@@ -135,7 +135,8 @@ Logging 6
 
 - Filter queries [04142719](https://gss--c.vf.force.com/apex/Case_View?id=500Hn00001pDUHc&sfdc.override=1)
 - JSON queries [04125308](https://gss--c.vf.force.com/apex/Case_View?id=500Hn00001o35gD&sfdc.override=1)
-- Log Level issues 
-
+- Log Level clarifications [04167078](https://gss--c.vf.force.com/apex/Case_View?id=500Hn00001pF3Dt&sfdc.override=1), [04060876](https://gss--c.vf.force.com/apex/Case_View?id=500Hn00001mcIND&sfdc.override=1)
+- Logging questions [04066770](https://gss--c.vf.force.com/apex/Case_View?id=500Hn00001mcZ4s&sfdc.override=1), [04058669](https://gss--c.vf.force.com/apex/Case_View?id=500Hn00001mcCY8&sfdc.override=1), [04010553](https://gss--c.vf.force.com/apex/Case_View?id=500Hn00001mZID0&sfdc.override=1)
+  
  
 
