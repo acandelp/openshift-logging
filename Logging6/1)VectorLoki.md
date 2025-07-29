@@ -49,8 +49,6 @@
 
 ### 3)Troubleshooting
 
-[Troubleshooting session with real cases mentioned in 3.8 VIDEO](https://drive.google.com/file/d/1OPEeoI4Un4PBFexo6g_CEjl10eLo1ENv/view)
-
 #### 3.1 Common customer issues
 - The customer cannot see the logs in the OCP Console.
 - Logs are delayed in the OCP Console.
@@ -121,18 +119,17 @@ loki_ingester_wal_recovered_bytes_total{namespace="openshift-logging"}
 
 #### 3.8) Support cases
 
-- [Troubleshooting cases Video](https://drive.google.com/file/d/1OPEeoI4Un4PBFexo6g_CEjl10eLo1ENv/view)
+- [Troubleshooting cases Video](https://drive.google.com/file/d/1OPEeoI4Un4PBFexo6g_CEjl10eLo1ENv/view) . Please note that the cases out of the "Logging 6" section belong to Logging 5 using Vector and Loki but since the steps to troubleshoot these tickets are the same for both versions of logging, I'm leaving them attached along with the troubleshooting video.
 
 - Configuration issues [03959863](https://gss--c.vf.force.com/apex/Case_View?id=5006R00002144DH&sfdc.override=1), [03725529](https://gss--c.vf.force.com/apex/Case_View?srPos=66&srKp=500&srF=1&id=5006R00001ylVaI&sfdc.override=1), [03737922](https://gss--c.vf.force.com/apex/Case_View?srPos=11&srKp=500&srF=1&id=5006R00001ywIZr&sfdc.override=1)
   
 - Storage issue [03925134](https://gss--c.vf.force.com/apex/Case_View?id=5006R000020p125&sfdc.override=1), [03866052](https://gss--c.vf.force.com/apex/Case_View?srPos=0&srKp=500&id=5006R000020MyFz&sfdc.override=1).
 
 - Read logs issue [03871025](https://gss--c.vf.force.com/apex/Case_View?srPos=47&srKp=500&srF=1&id=5006R000020NpjY&sfdc.override=1).
-
+- 
 - How to manage an unknown issue [03873885](https://gss--c.vf.force.com/apex/Case_View?srPos=0&srKp=500&id=5006R000020OJ1U&sfdc.override=1).
 
 Logging 6
-
 - Filter queries [04142719](https://gss--c.vf.force.com/apex/Case_View?id=500Hn00001pDUHc&sfdc.override=1)
 - JSON queries [04125308](https://gss--c.vf.force.com/apex/Case_View?id=500Hn00001o35gD&sfdc.override=1)
 - Log Level clarifications [04167078](https://gss--c.vf.force.com/apex/Case_View?id=500Hn00001pF3Dt&sfdc.override=1), [04060876](https://gss--c.vf.force.com/apex/Case_View?id=500Hn00001mcIND&sfdc.override=1)
