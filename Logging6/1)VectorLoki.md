@@ -75,15 +75,15 @@
 #### 3.3)Common checks
 
 - Logging Operator Version and Loki Operator version
-- ClusterLogging Managed status
 - LokiStack instance
-- ClusterLogging instance
-- ClusterLogForwarder instance
+- Observability forwarder instance Managed Status
+- Observability forwarder instance Status/Conditions
 - Collector Logs
 - Loki pods logs
+- UI Plugin status
 
 
-#### 3.5) If the customer cannot collect a must-gather
+#### 3.4) If the customer cannot collect a must-gather
 ```
 $ oc adm inspect ns/openshift-logging (also add the generated file)
 $ oc -n openshift-logging get csv > csv.txt
@@ -92,7 +92,7 @@ $ oc -n openshift-logging get LokiStack <lokistack_instance> -o yaml > lokistack
 $ oc -n openshift-logging get uiplugin <plugin_name> -o yaml > plugin.txt
 ```
 
-#### 3.6) Extra information for checking Loki
+#### 3.5) Extra information for checking Loki
 ```
 ===Metrics to identify log drops===
 /// Vector discarded events
@@ -115,7 +115,7 @@ loki_ingester_wal_recovered_bytes_total{namespace="openshift-logging"}
 - [Loki Dashboards](https://videos.learning.redhat.com/playlist/dedicated/251079123/1_ojvcvz0p/1_zq29kjud).
 
 
-#### 3.7) Vector Troubleshooting
+#### 3.6) Vector Troubleshooting
 - [Vector Troubleshooting](https://access.redhat.com/articles/7089751) 
 
 
@@ -130,6 +130,12 @@ loki_ingester_wal_recovered_bytes_total{namespace="openshift-logging"}
 - Read logs issue [03871025](https://gss--c.vf.force.com/apex/Case_View?srPos=47&srKp=500&srF=1&id=5006R000020NpjY&sfdc.override=1).
 
 - How to manage an unknown issue [03873885](https://gss--c.vf.force.com/apex/Case_View?srPos=0&srKp=500&id=5006R000020OJ1U&sfdc.override=1).
+
+Logging 6
+
+- Filter queries [04142719](https://gss--c.vf.force.com/apex/Case_View?id=500Hn00001pDUHc&sfdc.override=1)
+- JSON queries [04125308](https://gss--c.vf.force.com/apex/Case_View?id=500Hn00001o35gD&sfdc.override=1)
+- Log Level issues 
 
  
 
