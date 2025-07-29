@@ -14,13 +14,12 @@
 
 ### 2)[Installation and Deployment](https://docs.redhat.com/en/documentation/openshift_container_platform/4.17/html/logging/logging-6-0#installing-logging-6-0)
 
-[Installation and Deployment VIDEO]()
- -->PENDING
+[Installation and Deployment VIDEO](https://drive.google.com/file/d/1hHk1padnKc9JIgi93_ANN1lBL2pIzJZj/view?usp=drive_link)
 
-- [Configuring log forwarding](https://docs.redhat.com/en/documentation/openshift_container_platform/4.17/html/logging/logging-6-0#log6x-clf)
+[Configuring log forwarding](https://docs.redhat.com/en/documentation/openshift_container_platform/4.17/html/logging/logging-6-0#log6x-clf)
 
-[ClusterLogForwarder VIDEO]()
--->PENDING
+-[Observability Forwarder third-party examples for Logging 6](https://gitlab.cee.redhat.com/aosqe/aosqe-tools/-/tree/master/logging/log_doc/clf-6.0-examples?ref_type=heads)
+
 
 #### 2.1) Useful configuration information
 
