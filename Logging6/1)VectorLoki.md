@@ -129,9 +129,7 @@ loki_ingester_wal_recovered_bytes_total{namespace="openshift-logging"}
 
 - Read logs issue [03871025](https://gss--c.vf.force.com/apex/Case_View?srPos=47&srKp=500&srF=1&id=5006R000020NpjY&sfdc.override=1).
 
-- Filter cases [03980750](https://gss--c.vf.force.com/apex/Case_View?srPos=0&srKp=500&id=500Hn00001kqp6A&sfdc.override=1), [03861975](https://gss--c.vf.force.com/apex/Case_View?srPos=0&srKp=500&id=5006R000020MEMM&sfdc.override=1) 
-
 - How to manage an unknown issue [03873885](https://gss--c.vf.force.com/apex/Case_View?srPos=0&srKp=500&id=5006R000020OJ1U&sfdc.override=1).
 
-- Interesting migration case [03809176](https://gss--c.vf.force.com/apex/Case_View?srPos=0&srKp=500&id=5006R00001wgefc&sfdc.override=1#comment_a0a6R00000WYdyiQAD) 
+ 
 
