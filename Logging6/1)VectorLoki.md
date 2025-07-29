@@ -1,4 +1,4 @@
-## Logging 6 (WORK IN PROGRESS)
+## Logging 6
 
 ### 1)Architecture
 [Logging 6 Architecture VIDEO](https://drive.google.com/file/d/1YtNF986BtYodAE4IeSBptf27lrLoZTp8/view?usp=drive_link)
