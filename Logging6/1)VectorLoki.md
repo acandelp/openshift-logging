@@ -18,7 +18,7 @@
 
 [Configuring log forwarding](https://docs.redhat.com/en/documentation/openshift_container_platform/4.17/html/logging/logging-6-0#log6x-clf)
 
--[Observability Forwarder third-party examples for Logging 6](https://gitlab.cee.redhat.com/aosqe/aosqe-tools/-/tree/master/logging/log_doc/clf-6.0-examples?ref_type=heads)
+- [Observability Forwarder third-party examples for Logging 6](https://gitlab.cee.redhat.com/aosqe/aosqe-tools/-/tree/master/logging/log_doc/clf-6.0-examples?ref_type=heads)
 
 
 #### 2.1) Useful configuration information
